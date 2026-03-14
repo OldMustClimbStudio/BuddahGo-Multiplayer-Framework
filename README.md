@@ -92,29 +92,6 @@ Suggested commit style:
 4. Let Unity import assets and compile.
 5. Confirm Steam integration settings and test scene.
 
-## First-Time Git Setup
-
-Run from project root after adding these files:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "chore: initialize unity repo"
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-If your GitHub repo already has a README commit:
-
-```bash
-git remote add origin <your-github-repo-url>
-git fetch origin
-git pull origin main --allow-unrelated-histories
-# resolve conflicts if any
-git push -u origin main
-```
-
 ## Collaboration Checklist
 
 - Pull latest `main` before starting work
