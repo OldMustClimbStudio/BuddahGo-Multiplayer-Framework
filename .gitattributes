@@ -1,0 +1,29 @@
+# Use LF in repo; tools can convert on checkout if needed
+* text=auto
+
+# Unity scene/prefab/yaml files should be treated as text for better diff/merge
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.mat text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.meta text eol=lf
+*.physicMaterial text eol=lf
+*.physicsMaterial2D text eol=lf
+*.overrideController text eol=lf
+*.mask text eol=lf
+
+# Binary assets (recommended for LFS if repo grows)
+*.psd binary
+*.tga binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
